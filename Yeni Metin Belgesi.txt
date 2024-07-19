@@ -1,0 +1,36 @@
+Proje başlığı olarak "WebYazılım A.Ş ". Bu web sitesi, sadece admin olan kişi erişim saglayacak ve müşterilerin hizmetler kısmından hizmetleri inceleyip ,hizmet taleplerini iletebileceği bir iletişim formu bulunacak.
+
+
+
+Web sitemde;
+*Anasayfa ,Hizmetlerimiz,Hakkımızda,Ekibimiz ve de iletişim bölümü kısmı olacak.
+*Admin paneli giriş kısmı olacak.
+Veri Tabanı İşlemleri:
+Sadece admin panelinde kullanıcı yönetimi yapılacaktır. Kullanıcılar, siteye kayıt olup giriş yapamayacaklar.
+Admin, müşteri hizmetleri için gönderilen talepleri görüntüleyebilecek, yanıtlayabilecek ve gerektiğinde işleme alacak.
+En Çok Gelen Talep Türleri:
+Admin panelinde hangi tür taleplerin daha fazla geldiğini gösteren bir şey eklenebilir.
+Müşteri Geri Bildirimleri: mesajlarını admin tarafından takip edilebilir.
+
+Admin Girişi:
+
+Admin, kullanıcı adı ve parola ile giriş yapacak ve yönetim paneline erişim sağlayacak.
+
+Müşteri Hizmetleri İletişim Platformu:
+Ana sayfa üzerinde "Müşteri Hizmetleri" bölümü bulunacaktır. Bu bölümden kullanıcılar, çeşitli hizmet taleplerini inceleyecek ve kendine uygun olanı iletişim formu üzerinden iletişime geçerek iletcek. 
+
+İletişim Formu ve Admin Bildirimleri:
+
+Kullanıcılar, iletişim formunu doldurduktan sonra gönder butonuna basarak taleplerini ileteceklerdir.
+İletişim formu aracılığıyla gönderilen mesajlar, admin paneline düşecek ve admin bu taleplere yönetim panelinden iletişime geçecek.
+Admin, müşteri taleplerini görüntüleyebilecek ve işleme alabilecektir.
+
+Görsel Materyaller:
+
+Sayfa tasarımında Bootstrap kullanılarak ve görsel öğeler eklenecek.
+
+Footer Bilgileri:
+
+Sayfanın alt kısmında şirket bilgileri, site haritası, KVKK bilgileri, sosyal medya bağlantıları ve iletişim bilgileri yer alacaktır.
+
+Detaylar ilerleyen aşamalarda değiştirebilirim  ve projenin tamamlanmasına yönelik ayrıntılar ekleyebilirim.

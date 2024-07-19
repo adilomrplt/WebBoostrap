@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Sayfası</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4bea204677.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #000000;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 10px; /* Adjust this margin as needed for spacing */
+        }
+
+        .logo {
+            width: 300px;
+            height: 300px;
+            height: auto;
+            transform: rotate(-90deg);
+            border: 4px solid chartreuse ;
+            box-shadow: 0px 0px 15px 0px chartreuse;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: black;
+            color: #f8f9fa;
+            margin-left: 20px; /* Adjust this margin to align with the rotated logo */
+            border: 2px solid chartreuse ;
+            box-shadow: 0px 0px 15px 0px chartreuse;
+            border-style: 1px;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            margin-top: 20px;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+        button.btn-primary {
+            background-color: black;
+            border-color: rgb(41, 41, 41);
+            border: 2px solid chartreuse;
+            box-shadow: 0px 0px 15px 0px chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo-container">
+        <a href="index.html"><img src="resim/logo.png" alt="logo" class="logo"></a>
+        
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title" style="text-align: center;">Giriş Yap</h3>
+            <form>
+                <div class="form-group">
+                    <label for="email">E-posta Adresiniz</label>
+                    <input type="email" class="form-control" id="email" placeholder="E-posta adresinizi giriniz">
+                </div>
+                <div class="form-group">
+                    <label for="password">Şifreniz</label>
+                    <input type="password" class="form-control" id="password" placeholder="Şifrenizi giriniz">
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Beni Hatırla
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" style="background-color: black; border-color: rgb(41, 41, 41);">Giriş Yap</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
